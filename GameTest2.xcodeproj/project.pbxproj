@@ -16,6 +16,11 @@
 		140FD2811C51B9C500F7610C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140FD27F1C51B9C500F7610C /* LaunchScreen.storyboard */; };
 		140FD28C1C51B9C500F7610C /* GameTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140FD28B1C51B9C500F7610C /* GameTest2Tests.swift */; };
 		140FD2971C51B9C500F7610C /* GameTest2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140FD2961C51B9C500F7610C /* GameTest2UITests.swift */; };
+		140FD39D1C55621A00F7610C /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140FD39C1C55621A00F7610C /* GameOverScene.swift */; };
+		140FD39F1C5564BB00F7610C /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140FD39E1C5564BB00F7610C /* StartScene.swift */; };
+		14A8B2DA1C58774E007F588B /* Pop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 14A8B2D91C58774E007F588B /* Pop.caf */; };
+		14A8B2DC1C5AEA69007F588B /* BlitzScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8B2DB1C5AEA69007F588B /* BlitzScene.swift */; };
+		14F6E7701C5C589400CC7DDE /* InstructionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6E76F1C5C589400CC7DDE /* InstructionScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		140FD2921C51B9C500F7610C /* GameTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		140FD2961C51B9C500F7610C /* GameTest2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTest2UITests.swift; sourceTree = "<group>"; };
 		140FD2981C51B9C500F7610C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140FD39C1C55621A00F7610C /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		140FD39E1C5564BB00F7610C /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		14A8B2D91C58774E007F588B /* Pop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pop.caf; sourceTree = "<group>"; };
+		14A8B2DB1C5AEA69007F588B /* BlitzScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlitzScene.swift; sourceTree = "<group>"; };
+		14F6E76F1C5C589400CC7DDE /* InstructionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstructionScene.swift; path = ../InstructionScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +111,14 @@
 		140FD2711C51B9C500F7610C /* GameTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				14F6E76F1C5C589400CC7DDE /* InstructionScene.swift */,
 				140FD2721C51B9C500F7610C /* AppDelegate.swift */,
 				140FD2741C51B9C500F7610C /* GameScene.sks */,
 				140FD2761C51B9C500F7610C /* GameScene.swift */,
+				14A8B2D91C58774E007F588B /* Pop.caf */,
+				140FD39E1C5564BB00F7610C /* StartScene.swift */,
+				140FD39C1C55621A00F7610C /* GameOverScene.swift */,
+				14A8B2DB1C5AEA69007F588B /* BlitzScene.swift */,
 				140FD2781C51B9C500F7610C /* GameViewController.swift */,
 				140FD27A1C51B9C500F7610C /* Main.storyboard */,
 				140FD27D1C51B9C500F7610C /* Assets.xcassets */,
@@ -199,6 +214,7 @@
 				TargetAttributes = {
 					140FD26E1C51B9C500F7610C = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q77EFD3X93;
 					};
 					140FD2861C51B9C500F7610C = {
 						CreatedOnToolsVersion = 7.2;
@@ -236,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140FD2751C51B9C500F7610C /* GameScene.sks in Resources */,
+				14A8B2DA1C58774E007F588B /* Pop.caf in Resources */,
 				140FD2811C51B9C500F7610C /* LaunchScreen.storyboard in Resources */,
 				140FD27E1C51B9C500F7610C /* Assets.xcassets in Resources */,
 				140FD27C1C51B9C500F7610C /* Main.storyboard in Resources */,
@@ -263,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A8B2DC1C5AEA69007F588B /* BlitzScene.swift in Sources */,
 				140FD2771C51B9C500F7610C /* GameScene.swift in Sources */,
+				14F6E7701C5C589400CC7DDE /* InstructionScene.swift in Sources */,
 				140FD2791C51B9C500F7610C /* GameViewController.swift in Sources */,
+				140FD39D1C55621A00F7610C /* GameOverScene.swift in Sources */,
+				140FD39F1C5564BB00F7610C /* StartScene.swift in Sources */,
 				140FD2731C51B9C500F7610C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GameTest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Me.GameTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -418,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GameTest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Me.GameTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -494,6 +521,7 @@
 				140FD29D1C51B9C500F7610C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		140FD29E1C51B9C500F7610C /* Build configuration list for PBXNativeTarget "GameTest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +530,7 @@
 				140FD2A01C51B9C500F7610C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		140FD2A11C51B9C500F7610C /* Build configuration list for PBXNativeTarget "GameTest2UITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +539,7 @@
 				140FD2A31C51B9C500F7610C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
